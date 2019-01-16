@@ -1,18 +1,43 @@
 {
-  "name": "css-in-webpack",
-  "version": "1.0.0",
+  "name": "css-in-webpacks",
+  "version": "1.0.7",
   "description": "code for css in webpack",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack-dev-server --inline --progress --mode development --config ./webpack.config.js"
+    "dev": "webpack-dev-server --inline --progress --mode development --config ./webpack.config.js",
+    "build": "webpack --config ./webpack.config.js"
   },
-  "author": "TyrionJYQ",
+  "keywords": [
+    "webpack",
+    "css"
+  ],
+  "files": [
+    "src"
+  ],
+  "bugs": {
+    "email": "zousanjun@360.cn"
+  },
+  "author": {
+    "name": "zousanjun",
+    "email": "zousanjun@360.cn"
+  },
+  "contributors": [{
+    "name": "test",
+    "email": "test@360.cn"
+  }],
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/npm/npm.git"
+  },
   "license": "ISC",
   "devDependencies": {
     "webpack": "^4.25.1",
     "webpack-bundle-analyzer": "^3.0.3",
     "webpack-cli": "^3.1.2",
     "webpack-dev-server": "^3.1.10"
+  },
+  "dependencies": {
+    "css-in-webpack": "latest"
   }
 }
